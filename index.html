@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <div class="image-carousel-container">
+      <button class="previous-slide">
+        <img src="./assets/icons/arrow-back.svg" alt="Previous slide" />
+      </button>
+      <div class="slides-container">
+        <article class="slide">
+          <img
+            src="./assets/images/chicago.jpg"
+            alt="Chicago's city architecture and skyscrapers near waterfront"
+          />
+        </article>
+        <article class="slide">
+          <img
+            src="./assets/images/los-angeles.jpg"
+            alt="Los Angeles by Night"
+          />
+        </article>
+        <article class="slide">
+          <img src="./assets/images/new-york.jpg" alt="7am shot of New York" />
+        </article>
+        <article class="slide">
+          <img src="./assets/images/shanghai.jpg" alt="Shanghai highway" />
+        </article>
+        <article class="slide">
+          <img src="./assets/images/tokyo.jpg" alt="Tokyo sidewalk" />
+        </article>
+      </div>
+      <button class="next-slide">
+        <img src="./assets/icons/arrow-forward.svg" alt="Next slide" />
+      </button>
+    </div>
+    <nav class="carousel-nav">
+      <button class="nav-dot" data-slide="0"></button>
+      <button class="nav-dot" data-slide="1"></button>
+      <button class="nav-dot" data-slide="2"></button>
+      <button class="nav-dot" data-slide="3"></button>
+      <button class="nav-dot" data-slide="4"></button>
+    </nav>
+  </body>
+</html>
